@@ -10,6 +10,10 @@ const Wrapper = styled(Box)`
 const BackButton = styled(IconButton)`
   background: #ffffff;
   border-radius: 50%;
+  &:hover {
+    color: #fffff;
+    background: gray;
+  }
 `;
 
 export default function Header() {

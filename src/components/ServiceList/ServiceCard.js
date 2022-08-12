@@ -13,6 +13,12 @@ const StyledCard = styled(Card)`
   box-shadow: 0px 12px 18px rgba(23, 23, 37, 0.04);
   border-radius: 4px;
   width: 200px;
+  cursor: pointer;
+  transition: all 0.25s linear;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  &:hover {
+    box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8);
+  }
 `;
 
 export default function ServiceCard({ card }) {

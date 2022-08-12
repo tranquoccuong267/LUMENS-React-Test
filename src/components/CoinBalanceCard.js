@@ -20,9 +20,7 @@ const Wrapper = styled(Box)`
 `;
 
 const LinkButton = styled(Box)`
-  "&:hover": {
-    cursor: pointer;
-  },
+  cursor: pointer;
 `;
 
 const StyledButton = styled(Button)`
