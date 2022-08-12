@@ -54,7 +54,7 @@ export default function CoinBalanceCard() {
     <Container style={{ position: "relative" }}>
       <Wrapper
         p={4}
-        mr={3}
+        mr={2}
         style={{
           backgroundImage: `url(${cardBackGround})`,
           boxShadow: "0px 12px 18px rgba(23, 23, 37, 0.04)",
